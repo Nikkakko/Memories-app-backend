@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 5000;
 
 app.use(
   cors({
-    origin: ['http://localhost:5173', 'https://mern-memories-app-api.onrender.com'],
+    origin: ['http://localhost:5173', 'https://mern-memories-app.onrender.com'],
   })
 );
 
